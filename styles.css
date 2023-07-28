@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3rem 1rem;
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+}
+
+#didgitalContainer {
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background: #388697;
+    border: 1rem solid #fa8334;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 576px) {
+    #didgitalContainer {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #didgitalContainer {
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #didgitalContainer {
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #didgitalContainer {
+        font-size: 10rem;
+    }
+}

@@ -53,6 +53,68 @@ h1 {
     border-radius: 10px;
 }
 
+#analogueClockOutline {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 500px;
+    height: 80vw;
+    max-height: 500px;
+    background: #271033;
+    border: 7px solid #388697;
+    border-radius: 50%;
+    ;
+}
+
+#analogueClock {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#hourHand,
+#minuteHand,
+#secondHand {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hourHand {
+    width: 1.8%;
+    height: 27%;
+    top: 23%;
+    left: 49.1%;
+    background: #fa8334;
+}
+
+#minuteHand {
+    width: 1.6%;
+    height: 40%;
+    top: 10%;
+    left: 49.2%;
+    background: #fffd77;
+    opacity: 0.6;
+}
+
+#secondHand {
+    width: 0.6%;
+    height: 45%;
+    top: 5%;
+    left: 49.7%;
+    background: #388697;
+}
+
+#decoration {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 45%;
+    left: 45%;
+    border-radius: 50%;
+    background: #ffe882;
+}
+
 @media only screen and (min-width: 576px) {
     #didgitalContainer {
         font-size: 4rem;

@@ -36,6 +36,14 @@ const minus10 = document.querySelector("#minus10");
         store.dispatch({ type: "SET_QUARTER", payload: "4th quarter" });
     }
 
+    let hour_rotation = 30 * hour + min / 2;
+    let min_rotation = 6 * min;
+    let sec_rotation = 6 * sec;
+    
+    hourHand.style.transform = `rotate(${hour_rotation}deg)`;
+    minuteHand.style.transform = `rotate(${min_rotation}deg)`;
+    secondHand.style.transform = `rotate(${sec_rotation}deg)`;
+
     setTimeout(clockBeat, 1000);
 })()
 

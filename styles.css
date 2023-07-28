@@ -20,6 +20,12 @@ h1 {
     max-width: 1000px;
 }
 
+#quarters {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
 #didgitalContainer {
     margin: 2rem auto;
     padding: 2rem;

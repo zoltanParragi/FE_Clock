@@ -26,6 +26,21 @@ h1 {
     font-size: 2rem;
 }
 
+#adjustBtnsContainer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.adjustBtns {
+    padding: 0.5rem;
+    color: white;
+    background: #271033;
+    border-radius: 5px;
+    border: 3px solid #532d68;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
 #didgitalContainer {
     margin: 2rem auto;
     padding: 2rem;
